@@ -9,7 +9,7 @@ class Ingredient
   end
 
   def initialize(name)
-    @name = 'banana'
+    @name = name #yes, we have NO bananas.
   end
 
 end
