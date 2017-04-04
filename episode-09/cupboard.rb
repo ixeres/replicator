@@ -14,7 +14,7 @@ class Cupboard
   end
 
   def find_glass
-    @shelf.contents.find { |obj| obj.class == 'Glass' }
+    @shelf.contents.find { |obj| obj.class == Glass } #first problem solve.
   end
 
 end

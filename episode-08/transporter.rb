@@ -7,7 +7,7 @@ class Transporter
   end
 
   def connect_to_power
-    @power = false
+    @power = @enterprise.reactor.on #I caught this one on the first look! ... Yay.
   end
 
   def energize(obj:, from:, to:)
